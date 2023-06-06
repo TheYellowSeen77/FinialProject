@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(209, 209, 209);
+    font-family: 'Roboto Slab', serif;
+}
+#post{
+    font-family: 'Roboto Slab', serif;
+    position: fixed;
+    background-color: aliceblue;
+    text-align: center;
+    width: 1430px ;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom: 100px;
+    z-index: 1;
+}
+.center{
+    margin: auto;
+    width:50%
+  }
+#comment{
+    background-color: aliceblue;
+    bottom: 20px;
+    position: fixed;
+    width: 1430px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    height: 60px;
+}
+form{
+    font-family: 'Roboto Slab', serif;
+}
+#submit{
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+#displayNameInput{
+    font-family: 'Roboto Slab', serif;
+}
+#userCommentInput{
+    width: 1000px;
+    height:20px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 20px;
+}
+#commentOutputName{
+    font-size: 20px;
+    margin-bottom: 0;
+    background-color: aliceblue;
+    width: auto;
+    margin-top: 20px;
+    border-top-style:solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+.commentOutputComment{
+    font-size: 30px;
+    margin-top: 0;
+    background-color: aliceblue;
+    width: auto;
+    flex-wrap: wrap;
+    border-bottom-style:solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+.moveDown{
+    margin-top: 100px;
+}
+.edit{
+    float: right;
+    background-color: aliceblue;
+    color: rgb(80, 150, 161);
+    display: inline;
+}
+.delete{
+    display: inline;
+    float: right;
+    background-color: aliceblue;
+    color: rgb(80, 150, 161);
+    margin-left: 10px;
+}
+#topSpace{
+    width: 1430px;
+    background-color: aliceblue;
+    position: relative;
+}
+#postedComments{
+    top: 132px;
+    position: absolute ;
+    width: 1410px;
+}
